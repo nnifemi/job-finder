@@ -1,0 +1,126 @@
+@charset "utf-8";
+
+* {
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: min(100% - 30px, 1080px);
+    margin-inline: auto;
+    display: grid;
+    margin-left: 42vh;
+    margin-top: 7vh;
+}
+
+main {
+    background-color: #f0f0f0;
+    padding: 20px;
+    height: 100dvh;
+}
+
+.main-content {
+    display: flex;
+    align-items: center;
+}
+
+h2 {
+    font-size: 35px;
+    margin-left: 20px;
+    color: #424cf9;
+}
+
+.user-info img {
+    width: 400px;
+    height: 600px;
+}
+
+.login-form {
+    margin-top: 20px;
+    margin-left: 20px; /* Adjust the margin to move the form closer to the image */
+    width: 200px; /* Adjust the width of the login form container */
+}
+
+.login-form h2 {
+    margin-bottom: 10px; /* Add space below the welcome heading */
+}
+
+.login-form input {
+    width: 40vh;
+    height: 40px;
+    padding: 10px;
+    background-color: #bfc1dc;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    border-style: none;
+}
+
+.login-form input::placeholder {
+    color: #424cf9;
+}
+
+#forgot-password {
+    margin-top: 2px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-size: 14px; 
+    color: #424cf9;
+}
+
+p#error-message {
+    margin-top: 2px;
+    margin-left: 20px;
+    width: 300px;
+    margin-bottom: 10px;
+    color: #ff0000;
+}
+
+#forgot-password a {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+
+#forgot-password a:hover {
+    color: #474fe5;
+    text-decoration: underline;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.buttons {
+    width: 600px;
+    margin-top: 60px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+button {
+    padding: 15px 45px;
+    cursor: pointer;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+button.login {
+    background-color: #424cf9;
+    color: #fff;
+    border: none;
+}
+
+button.login:hover {
+    background-color: #6f75f2;
+    transition: all 0.3s ease-in-out;
+}
+
+button.sign-up {
+    color: #424cf9;
+    border: 2px solid #474fe5;
+}
+
+
+button.sign-up:hover {
+    background-color: #0f1378;
+    transition: all 0.3s ease-in-out;
+}
